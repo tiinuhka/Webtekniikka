@@ -14,3 +14,11 @@ body {
 fieldset {
     margin: 50px;
 }
+
+div .unchecked {
+    color: black;
+}
+
+div .checked {
+    color: rgb(220, 23, 180); 
+}

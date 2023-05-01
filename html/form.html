@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Aloitussivulle</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Aloitussivulle</a>
           </li>
           
           <li class="nav-item dropdown">
@@ -38,7 +38,7 @@
               Valitse
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="../Wtech_tiinuhka/pages/Reissukuvia.html">Kauhanevan-Pohjankankaan Kansallispuistossa</a></li>
+              <li><a class="dropdown-item" href="./accordion.html">Luontokuvia</a></li>
               <li><a class="dropdown-item" href="https://www.luontoon.fi/kauhaneva-pohjankangas">Kansallispuiston kotisivut</a></li>
             </ul>
           </li>
@@ -53,25 +53,28 @@
 
   <!--Actual content--> 
   <!--form-->  
-  <form class="kuka-olet">
+  <form class="Kävijäkaavake">
     <fieldset>   
-      <h2>Kuka olet?</h2>
+      <h2>Kävijäkaavake</h2>
           
-              
+      <p>Mikäli haluat nimesi ja käyntisi päivämäärän ja kellonajan tulostumaan listalle, ruksi "Tärkeä!" -kohta kaavakkeesta.</p>        
               
               <!--create an input to type your name-->
                   <label for="first-name"><b>Kirjoita tähän </b>
                       <input type=text id="first-name" name="first-name" required placeholder="nimesi:" />
                   </label>
+                  <label for="note"><b>Kommentti </b>
+                    <input type=textarea id="note" name="note" required placeholder="kirjoita kommentti:" />
+                </label>
                   <br>
               <!--create a checkbox and a label-->    
                   <label for="checkbox">Tärkeä! Lisää nimeni listalle!</label><input type="checkbox" id="important" name="checkbox">
                   <br>
                       <!--submit btn for name-->
-                      <input type="submit" value="Syötä nimesi" id="submit-name" />
+                      <input type="submit" value="Syötä nimesi" id="submit-name"/>
                   
               <!--create a div to print player name-->
-                  <div class="player-name" id="player-name"></div>
+                  <div class="visitor-name" id="visitor-name"></div>
     </fieldset>
     
     <!--create an array-->
@@ -83,6 +86,6 @@
 
 <!--Bootstrap .js file-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="./script/script.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>
