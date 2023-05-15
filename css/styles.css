@@ -1,14 +1,22 @@
 
+.h1 {
+    margin: 30px;
+    padding:20px;
+    color: #444242;
+    text-align: left;
+    font-size: large;
+}
+
 .container {
-    margin-top: 40;
-    padding-left: 20;
-    margin-bottom: 80px;
-        
+    padding: 5px;
+    font-weight: bolder;
 }
 
 body {
-    background-color: #cccccc;
+    background-color: #b5a0a0;
     font-family: 'Poppins', sans-serif;
+    font-size: large;
+    color: #444242;
 }
 
 fieldset {
@@ -20,7 +28,7 @@ div .unchecked {
 }
 
 div .checked {
-    color: rgb(220, 23, 180); 
+    color: rgb(223, 11, 18); 
 }
 
 .row {
@@ -28,16 +36,51 @@ div .checked {
     padding-top: 20px;
 }
 
-.col {
-    margin: 20px;
-}
-
 .space {
-    margin: 20 px;
+    height: 30px;
+    width: 100%
 }
 
+.footer {
+    padding: 5px;
+   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background: #444242;
+    color: #FFF;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.Logo1 {
+    margin: 20px;
+    border-radius: 30%;
+    border: 1px solid #333;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+
+}
 
 .footerlogo-editor {
     max-width: 20%;
     max-width: 20%;
+    align-content: center;
+    display: inline;
+    margin: 5x;
+    border-radius: 30px;
+    border: 1px solid #333;
+    }
+
+.accordion-pic {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 30%;
+    border: 1px solid #333;
+    padding: 5px;
+    width: 350px;
+    height: auto;
+    
 }
