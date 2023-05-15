@@ -23,3 +23,6 @@ div .checked {
     color: rgb(220, 23, 180); 
 }
 
+.row {
+    margin: 20px;
+}
