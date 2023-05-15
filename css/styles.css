@@ -25,4 +25,19 @@ div .checked {
 
 .row {
     margin: 20px;
+    padding-top: 20px;
+}
+
+.col {
+    margin: 20px;
+}
+
+.space {
+    margin: 20 px;
+}
+
+
+.footerlogo-editor {
+    max-width: 20%;
+    max-width: 20%;
 }
