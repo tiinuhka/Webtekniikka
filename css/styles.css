@@ -72,7 +72,18 @@ div .checked {
     margin: 5x;
     border-radius: 30px;
     border: 1px solid #333;
+
     }
+
+.footerlogo-editor:hover {
+    max-width: 80%;
+    max-width: 80%;
+    align-content: center;
+    display: inline;
+    margin: 5x;
+    border-radius: 30px;
+    border: 1px solid #333;
+}
 
 .accordion-pic {
     margin-left: 20px;
@@ -81,6 +92,15 @@ div .checked {
     border: 1px solid #333;
     padding: 5px;
     width: 350px;
+    height: auto;    
+}
+
+.accordion-pic:hover {
+    margin-bottom: 20px;
+    border-radius: 30%;
+    border: 1px solid #333;
+    padding: 5px;
+    width: 600px;
     height: auto;
-    
+    max-width: 100%;    
 }
